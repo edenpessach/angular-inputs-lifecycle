@@ -1,0 +1,5 @@
+<p class="current"> Current name: {{name}}</p>
+
+<p class="event" *ngFor="let event of timeline">
+  {{event.type}}: {{event.value | json}}
+</p>
